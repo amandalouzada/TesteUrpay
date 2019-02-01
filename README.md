@@ -1,4 +1,7 @@
 # Projeto Teste - Urpay
+
+Projeto teste para avaliação dos candidatos a compor a equipe Urpay. Este projeto tem o intuito de demonstrar a capacidade de codificação, abstração dos conhecimentos necessários e organização.
+
 ## Veículos
 
 O projeto consiste em criar uma API REST para gerenciamento de veículos. Esta API deve ser feita utilizando Node.js com MongoDB. Sugerimos as seguintes biliotecas Node para este projeto:
@@ -23,14 +26,17 @@ O banco deve possuir apenas uma Collection chamada `veiculo`. Dentro dessa Colle
 ### API WEB
 
 A API do projeto deve possuir os seguintes endpoints:
-* [Cadastrar Veículo](#cadastrar-veículo)
-* Listar Veículos
-* Consultar Veículo
-* Editar Veículo
-* Deletar Veículo
-* Adicionar Revisão
-* Consultar Total de gasto em revisões do veículo
+* Cadastrar Veículo
+* Listar Veículos (com filtros para marca e cor do veículo)
+* Consultar Veículo pela placa
+* Editar Veículo pela placa
+* Deletar Veículo pela placa
+* Adicionar Revisão pela placa
+* Consultar Total de gasto em revisões do veículo pela placa
+* Consultar Total de gasto em revisões do veículo pela marca
 
-#### Cadastrar Veículo
+### Hints
 
-Teste
+* A verificação do formato da placa pode ser feita utilizando expressões regulares.
+* Para calcular o total de gastos das revisões, é aconselhado utilizar `aggregation`, ferramenta disponível pelo mongoose.
+
