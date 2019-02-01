@@ -14,7 +14,7 @@ O projeto consiste em criar uma API REST para gerenciamento de veículos. Esta A
 O banco deve possuir apenas uma Collection chamada `veiculo`. Dentro dessa Collection deve ter os seguintes campos:
 
 * __placa__: Número da placa do veículo, no formato `AAA9999`. **Este campo deve ser único para cada veículo.**
-* __marca__: Marca da construtora do veículo.
+* __marca__: Marca da montadora do veículo.
 * __modelo__: Modelo do veículo.
 * __cor__: Cor do veículo.
 * __ano_fabricacao__: Ano de fabricação do veículo.
